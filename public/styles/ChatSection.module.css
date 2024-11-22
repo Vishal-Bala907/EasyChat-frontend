@@ -1,0 +1,46 @@
+.recieverDP {
+  height: 40px;
+  width: 40px;
+  border-radius: 90%;
+}
+
+.recieverBar {
+  height: 50px;
+}
+
+.chatTexts {
+  height: 77vh;
+  /* background-color: bisque; */
+}
+.barDark {
+  background: linear-gradient(45deg, #0c001e, #320078, #4a00b3, #0c001e);
+}
+.barLight {
+  background: linear-gradient(45deg, #1dd7ff, #1dd7ff59, #1dd7ff59, #1dd7ff);
+}
+.sendMessage {
+  height: 10vh;
+  padding: 1.2rem;
+  gap: 2rem;
+}
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.cross {
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+  cursor: pointer;
+}
+.bottomButton {
+  position: absolute;
+  bottom: 100px;
+  right: 25px;
+  background-color: white;
+  font-size: xx-large;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}

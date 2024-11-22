@@ -1,0 +1,65 @@
+/* lg */
+@media only screen and (min-width: 992px) {
+  .sidebar {
+    width: 25%;
+  }
+  .chatArea {
+    width: 75%;
+  }
+  .chatAreaWrapperComp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+/* md */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sidebar {
+    width: 35%;
+  }
+  .chatArea {
+    width: 65%;
+  }
+  .chatAreaWrapperComp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+/* sm */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .sidebar {
+    width: 45%;
+  }
+  .chatArea {
+    width: 55%;
+  }
+  .chatAreaWrapperComp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+/* extra small */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    /* display: none; */
+  }
+  .chatArea {
+    width: 100%;
+    /* position: absolute; */
+    /* top: 0; */
+  }
+  .chatAreaWrapperComp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

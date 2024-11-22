@@ -1,0 +1,18 @@
+.icon-H-W {
+  width: 25px;
+  height: 25px;
+}
+.my-border-radius {
+  border-radius: 90%;
+}
+
+.search :hover {
+  cursor: pointer;
+  background-color: #787575;
+}
+.cross {
+  position: absolute;
+  top: 7px;
+  right: 4px;
+  color: black;
+}

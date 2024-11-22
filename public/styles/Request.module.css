@@ -1,0 +1,33 @@
+.reqCount {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  font-size: small;
+}
+
+.checkHover,
+.crossHover {
+  border-radius: 90%;
+  background: transparent;
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+}
+.checkHover:hover {
+  cursor: pointer;
+  background-color: rgb(0, 120, 0);
+  transition: 0.3s ease-in-out;
+}
+.crossHover:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+  transition: 0.3s ease-in-out;
+}
+.checkHover:hover #req {
+  color: limegreen !important;
+}
+
+/* .crossHover :hover {
+  cursor: pointer;
+  color: red;
+} */

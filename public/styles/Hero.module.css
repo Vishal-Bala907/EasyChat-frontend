@@ -1,0 +1,12 @@
+.mainHero {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+@media screen and (max-width: 650px) {
+  .mainHero {
+    width: 100%;
+    height: 1200px;
+    background-size: cover;
+  }
+}

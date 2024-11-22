@@ -1,0 +1,22 @@
+.hero-cards {
+  height: 350px;
+  backdrop-filter: blur(12px);
+  box-shadow: 1px 1px 19px #ffffff5e;
+  border-radius: 10px;
+}
+.hero-cards-dark:hover {
+  height: 350px;
+  backdrop-filter: blur(20px);
+  box-shadow: 3px 4px 22px #ffffffa3;
+  border-radius: 10px;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+.hero-cards-light:hover {
+  height: 350px;
+  backdrop-filter: blur(20px);
+  box-shadow: 3px 4px 22px #000000a3;
+  border-radius: 10px;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.chatsLI {
+  width: fit-content;
+  padding: 0 15px;
+  background-color: #1391ff;
+  border-radius: 0 10px 10px 10px;
+}
+
+.senderColor {
+  background-color: #13f0ff;
+}

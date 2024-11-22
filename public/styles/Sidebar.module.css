@@ -1,0 +1,45 @@
+.height {
+  height: 92vh;
+}
+
+.contact {
+  cursor: pointer;
+}
+
+.hoverDark:hover {
+  color: #000000;
+  background: linear-gradient(35deg, #ffffff, #86fff3, #7dfff2, #ffffff);
+  border-radius: 10px;
+}
+
+.hoverLight:hover {
+  color: #000000;
+  background: linear-gradient(35deg, #2b91ff, #87fff3, #87fff3, #4692e4);
+  border-radius: 10px;
+}
+
+.hoverLight:hover > p,
+.hoverDark:hover > p {
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
+
+.bgDark {
+  background: linear-gradient(90deg, #000231, #000231f0, #000231f0, #000231);
+}
+.bgLight {
+  background: linear-gradient(90deg, #e8f3ff, #d7fffb, #d7fffb, #e8f3ff);
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.dp {
+  height: 30px;
+  width: 30px;
+  border-radius: 90%;
+  border: 2px solid white;
+}

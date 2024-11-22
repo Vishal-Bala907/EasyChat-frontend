@@ -1,0 +1,59 @@
+.bgBlack {
+  background: linear-gradient(
+    rgb(0 0 0 / 10%),
+    rgb(0 0 0 / 17%),
+    rgb(0 0 0 / 17%),
+    rgb(0 0 0 / 22%)
+  );
+}
+
+.bgWhite {
+  background: linear-gradient(
+    rgb(255 255 255 / 26%),
+    rgb(216 216 216 / 27%),
+    rgb(195 195 195 / 13%),
+    rgb(255 255 255 / 54%)
+  );
+}
+
+.card {
+  width: 200px;
+  height: fit-content;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.card > img {
+  border-radius: 12px;
+}
+.card > h6 {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.card > p {
+  position: absolute;
+  display: hidden;
+  z-index: -1;
+}
+.cardBGDARK {
+  background-color: #e2e2e2;
+  box-shadow: 2px 2px 8px #5f5c5c, -4px -5px 14px #ffffff,
+    inset -5px -7px 8px #0000002b, inset 4px 5px 14px #ffffff52;
+}
+.cardBGLIGHT {
+  background-color: white;
+  box-shadow: 2px 2px 8px #5f5c5c, -4px -5px 14px #ffffff,
+    inset -5px -7px 8px #0000002b, inset 4px 5px 14px #ffffff52;
+}
+.cardImg {
+  width: 200px;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.noChatCard:hover {
+  background-color: #5f5c5c;
+  transition: all 1s ease;
+}
